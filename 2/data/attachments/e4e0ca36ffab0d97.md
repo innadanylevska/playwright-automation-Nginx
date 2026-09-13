@@ -1,0 +1,154 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: https://demoqa.com
+      - img [ref=e5]
+  - generic [ref=e8]:
+    - generic [ref=e11]:
+      - generic [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - text: Elements
+        - img [ref=e22]
+      - generic [ref=e26] [cursor=pointer]:
+        - generic [ref=e27]:
+          - img [ref=e29]
+          - text: Forms
+        - img [ref=e35]
+      - generic [ref=e39] [cursor=pointer]:
+        - generic [ref=e40]:
+          - img [ref=e42]
+          - text: Alerts, Frame & Windows
+        - img [ref=e47]
+      - generic [ref=e49]:
+        - generic [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]:
+            - img [ref=e54]
+            - text: Widgets
+          - img [ref=e60]
+        - list [ref=e63]:
+          - listitem [ref=e64] [cursor=pointer]:
+            - link "Accordian" [ref=e65]:
+              - /url: /accordian
+              - img [ref=e66]
+              - text: Accordian
+          - listitem [ref=e68] [cursor=pointer]:
+            - link "Auto Complete" [ref=e69]:
+              - /url: /auto-complete
+              - img [ref=e70]
+              - text: Auto Complete
+          - listitem [ref=e72] [cursor=pointer]:
+            - link "Date Picker" [ref=e73]:
+              - /url: /date-picker
+              - img [ref=e74]
+              - text: Date Picker
+          - listitem [ref=e76] [cursor=pointer]:
+            - link "Slider" [ref=e77]:
+              - /url: /slider
+              - img [ref=e78]
+              - text: Slider
+          - listitem [ref=e80] [cursor=pointer]:
+            - link "Progress Bar" [ref=e81]:
+              - /url: /progress-bar
+              - img [ref=e82]
+              - text: Progress Bar
+          - listitem [ref=e84] [cursor=pointer]:
+            - link "Tabs" [ref=e85]:
+              - /url: /tabs
+              - img [ref=e86]
+              - text: Tabs
+          - listitem [ref=e88] [cursor=pointer]:
+            - link "Tool Tips" [ref=e89]:
+              - /url: /tool-tips
+              - img [ref=e90]
+              - text: Tool Tips
+          - listitem [ref=e92] [cursor=pointer]:
+            - link "Menu" [ref=e93]:
+              - /url: /menu
+              - img [ref=e94]
+              - text: Menu
+          - listitem [ref=e96] [cursor=pointer]:
+            - link "Select Menu" [ref=e97]:
+              - /url: /select-menu
+              - img [ref=e98]
+              - text: Select Menu
+      - generic [ref=e102] [cursor=pointer]:
+        - generic [ref=e103]:
+          - img [ref=e105]
+          - text: Interactions
+        - img [ref=e110]
+      - generic [ref=e114] [cursor=pointer]:
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - text: Book Store Application
+        - img [ref=e122]
+    - generic [ref=e125]:
+      - heading "Auto Complete" [level=1] [ref=e126]
+      - generic [ref=e129]:
+        - text: Type multiple color names
+        - generic [ref=e130]:
+          - log [ref=e132]: option Green, selected.
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]:
+                - generic [ref=e136]: Red
+                - button "Remove Red" [ref=e137] [cursor=pointer]:
+                  - img [ref=e138]
+              - generic [ref=e140]:
+                - generic [ref=e141]: Green
+                - button "Remove Green" [ref=e142] [cursor=pointer]:
+                  - img [ref=e143]
+              - combobox [active] [ref=e146]
+            - img [ref=e149]
+      - generic [ref=e153]:
+        - text: Type single color name
+        - generic [ref=e154]:
+          - log [ref=e156]
+          - combobox [ref=e160]
+    - generic [ref=e166]:
+      - iframe [ref=e169]:
+        - generic [active] [ref=f12e1]:
+          - link "Advertisement" [ref=f12e6] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CUa9_k-KmaqH1J7TmtccPq8fAgA-dnrrMiQHZ0uapoBbN6JGB1koQASDG-9Z5YMme2Ifoo6AVoAHg6oXpAsgBCeACAKgDAcgDSKoEjgJP0EF2__D9WRSXv2iYvagHd5rFyWx2cbCm5Nr_y1SewKDAv1RZbkgr-7VCgbTdViJ6zUsasPBRALCE_db8EDbFWqgJ9yOCBJLu2nJu5b5uJBxiO3ireg7rTi55b_6CtVCLo8N9Oh07C18FWhzLvobZB-jaG8-St2gApgrWAhaVk9DhXB_8K0RHsUVIUISndDwVHLYzre19DbGa3XKtKHamCt1MMOb7aIYCqhdzitNh5dHUCNNzZ1xDFeycu1FCLkYk7FXc9FQy-OrhHk1wCjDnL0xdP5OiN3Munis4A8VjAI2-afWkEMX3j7JPCIhntMg_1FgK1l1C-BiAegwUfWlLS586wEUHeGl6KkjTnP3ABIT1ptfpBeAEAYgF3ZTMoVqgBi6AB4iV-pYBqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAem67ECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggyCIBhEAEYHTIIioKAgICAgAg6D4BAgMCAgICAqIACqIOQEEi9_cE6WPWhhbaP7JYDYAHyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCUi-GogKuoJKgAoDmAsByAsBgAwBogw8YhgKFmNvbS5WaWRBbmdlbC5UaGVDaG9zZW5qGAoWY29tLnZpZGFuZ2VsLnRoZWNob3NlbngBiAEBkAEBqg0CVVPIDQHiDRMIs9aFto_slgMVNHPtAh2rIxDw6g0TCOnvhraP7JYDFTRz7QIdqyMQ8PANAogO____________AdgTA9AVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjYxNjg1NzY1MDVQBroXAjgBqhgXCQAAAABIBAhBEgo2MTY4NTc2NTA1GAGyGAkSAuloGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI4Yqmto_slgMVNHPtAh2rIxDwEAEYASAAEgJiivD_BwE&num=1&cid=CAQSiAIAQM4h3FSYqflFH8Xwzf4IsAmbDZFTMkkQ7oxHKF9S9WzcJeYiJd9CuYwlcy90WeAzo87TFQu839P-ZeGWnq-yyLxu9jRkemlJv-xm7uMOWle5m1mdbvI-VqOlZCA9Nn097_dkcfLkZYFWAyKA9Iue8Uapsc1La4EFJVawwc6r8tmyDq6GwP0z3_bkZzj1jdTahrKXoVf0aIVL1evlrROidkVjZuKfCxyAFSI4Sb0t-lBsXzVUA6Z8e4hoiMtiUNzVSNFwCytLiSpD3mkvdEYG-8G0pMXJlWvy8d6kNB5zKAmzUHZqll5b1mt5HohXePWOHObW69YLIwziCzqT3sxT6JLVb3r6QroYAQ&sig=AOD64_2oDLCg_sVHC-MCytQbaiUqOhGCmw&client=ca-pub-4573231550355221&rf=1&nb=25&adurl=http://www.angel.com/guild/join/sale%3Fguild-join-super%3Dvariation_6%26utm_source%3Dgoogle-ads%26utm_medium%3Dcpc-d%26utm_campaign%3D24229644893%26utm_content%3D824319055413%26utm_id%3D824319055413%26utm_term%3Ddemoqa.com%26gad_source%3D5%26gad_campaignid%3D24229644893%26gclid%3DEAIaIQobChMI4Yqmto_slgMVNHPtAh2rIxDwEAEYASAAEgJiivD_BwE
+            - iframe [ref=f12e9]:
+              - generic [ref=f13e2] [cursor=pointer]:
+                - img "Runner" [ref=f13e3]
+                - img "Runner" [ref=f13e4]
+                - img "2 Free Tickets" [ref=f13e5]
+                - img "+ Streaming" [ref=f13e6]
+                - img "Sale ends today!" [ref=f13e7]
+                - img "Get the Deal!" [ref=f13e9]
+                - img "2521 Entertainment" [ref=f13e11]
+                - img "Angel" [ref=f13e12]
+                - link "Get the Deal" [ref=f13e13]:
+                  - /url: javascript:void(window.open(clickTag))
+          - img [ref=f12e13] [cursor=pointer]
+          - button [ref=f12e17] [cursor=pointer]:
+            - img [ref=f12e18]
+          - iframe
+      - iframe [ref=e172]:
+        - generic [active] [ref=f9e1]:
+          - link "Advertisement" [ref=f9e6] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C26WVk-KmasuhCK3rtccPnY_kiQednrrMiQGNgsqsiBbl5_GPvg8QASDG-9Z5YMme2Ifoo6AVoAHg6oXpAsgBCeACAKgDAcgDSKoEkQJP0DADFMPiaB5FNwJKxoZbK-dXIeAWEitnAh_sA6frxmO1aezImPm0iBQerZA7AJ21XehxOzj29YOQpHufbuy4zVgsexqkiPTS1iXhehrydKn5XlgWOSNpIZM5RsiW_k3JFwpfOhN1NTf7MOfB_o77fAVaL0hTqaWcLIq-fEp3sJvu6BPXgsoxPrrlgyHfzrwo6YS3rIUrzeowDaReclsLkHCtPbxgdGeSHRQHFASq-AC6JFl4x1o2mrRI2loWU_nzR0_V2W2omujbMstpLmIfRZmexnmhNc_wJj1cvnmDHI0tw8BuivybCVz1TZ2ps6e1SQFh7xDkCXpTih2rQ-r8lUsc5Ob0viLFzl86eFO3NcXABKz1ptfpBeAEAYgF3ZTMoVqgBi6AB4iV-pYBqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAem67ECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggyCIBhEAEYHTIIioKAgICAgAg6D4BAgMCAgICAqIACqIOQEEi9_cE6WL6JhbaP7JYDYAHyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCUi-GogKuoJKgAoDmAsByAsBgAwBogw8YhgKFmNvbS5WaWRBbmdlbC5UaGVDaG9zZW5qGAoWY29tLnZpZGFuZ2VsLnRoZWNob3NlbngBiAEBkAEBqg0CVVPIDQHiDRMInraFto_slgMVrXXtAh2dBzlx6g0TCOGIhraP7JYDFa117QIdnQc5cfANAogO____________AdgTA9AVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjYxNjg1NzY1MDVQBroXAjgBqhgXCQAAAABSViBBEgo2MTY4NTc2NTA1GAGyGAkSAuloGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIi7eGto_slgMVrXXtAh2dBzlxEAEYASAAEgLtvPD_BwE&num=1&cid=CAQSiAIAQM4h3LJiP7gBREPw85F-39o_dTzPvQtAMuewjJl-oKugcndkiC42t6ghxiVFoXOHsZLilogfJTbMkkJd6QKZRooZiOSD-x_y0snkz2zDdQZu6JAmRX4VtmCYASZGXTDZxCeGXtgBbypJm-0wNzC7W0UkeSE-YpScPhMjNanHkkAK7cAWr5YeW8sqzeEJvA83EMWlrwFn_MIxWv8sl0i6mh2Mg0mjCDvKur1KUArgOXMnskTgHz25CF4S38_dGoV5BlAxFsAypYR-Sj1uD8rzx3todocmqtMgvJlYWwPsaP2_39xSXgT7HS_qPI791wd8SVKUqxHpD4hIbkISe0DHQMno-oyQuQIYAQ&sig=AOD64_2GjT80sJL4ouO8A4UQ_r2lFbddlg&client=ca-pub-4573231550355221&rf=1&nb=25&adurl=http://www.angel.com/guild/join/sale%3Fguild-join-super%3Dvariation_6%26utm_source%3Dgoogle-ads%26utm_medium%3Dcpc-d%26utm_campaign%3D24229644893%26utm_content%3D824319055374%26utm_id%3D824319055374%26utm_term%3Ddemoqa.com%26gad_source%3D5%26gad_campaignid%3D24229644893%26gclid%3DEAIaIQobChMIi7eGto_slgMVrXXtAh2dBzlxEAEYASAAEgLtvPD_BwE
+            - iframe [ref=f9e9]:
+              - generic [ref=f10e2] [cursor=pointer]:
+                - img "Runner" [ref=f10e3]
+                - img "Runner" [ref=f10e4]
+                - img "2 Free Tickets" [ref=f10e5]
+                - img "+ Streaming" [ref=f10e6]
+                - img "Sale ends today!" [ref=f10e7]
+                - img "Get the Deal!" [ref=f10e9]
+                - img "2521 Entertainment" [ref=f10e11]
+                - img "Angel" [ref=f10e12]
+                - link "Get the Deal" [ref=f10e13]:
+                  - /url: javascript:void(window.open(clickTag))
+          - img [ref=f9e13] [cursor=pointer]
+          - button [ref=f9e17] [cursor=pointer]:
+            - img [ref=f9e18]
+          - iframe
+  - contentinfo [ref=e173]:
+    - generic [ref=e174]: © 2013-2026 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

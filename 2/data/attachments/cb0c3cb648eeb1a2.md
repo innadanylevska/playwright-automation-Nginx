@@ -1,0 +1,128 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: https://demoqa.com
+      - img [ref=e5]
+  - generic [ref=e8]:
+    - generic [ref=e11]:
+      - generic [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - text: Elements
+        - img [ref=e22]
+      - generic [ref=e26] [cursor=pointer]:
+        - generic [ref=e27]:
+          - img [ref=e29]
+          - text: Forms
+        - img [ref=e35]
+      - generic [ref=e39] [cursor=pointer]:
+        - generic [ref=e40]:
+          - img [ref=e42]
+          - text: Alerts, Frame & Windows
+        - img [ref=e47]
+      - generic [ref=e51] [cursor=pointer]:
+        - generic [ref=e52]:
+          - img [ref=e54]
+          - text: Widgets
+        - img [ref=e60]
+      - generic [ref=e62]:
+        - generic [ref=e64] [cursor=pointer]:
+          - generic [ref=e65]:
+            - img [ref=e67]
+            - text: Interactions
+          - img [ref=e72]
+        - list [ref=e75]:
+          - listitem [ref=e76] [cursor=pointer]:
+            - link "Sortable" [ref=e77]:
+              - /url: /sortable
+              - img [ref=e78]
+              - text: Sortable
+          - listitem [ref=e80] [cursor=pointer]:
+            - link "Selectable" [ref=e81]:
+              - /url: /selectable
+              - img [ref=e82]
+              - text: Selectable
+          - listitem [ref=e84] [cursor=pointer]:
+            - link "Resizable" [ref=e85]:
+              - /url: /resizable
+              - img [ref=e86]
+              - text: Resizable
+          - listitem [ref=e88] [cursor=pointer]:
+            - link "Droppable" [ref=e89]:
+              - /url: /droppable
+              - img [ref=e90]
+              - text: Droppable
+          - listitem [ref=e92] [cursor=pointer]:
+            - link "Dragabble" [ref=e93]:
+              - /url: /dragabble
+              - img [ref=e94]
+              - text: Dragabble
+      - generic [ref=e98] [cursor=pointer]:
+        - generic [ref=e99]:
+          - img [ref=e101]
+          - text: Book Store Application
+        - img [ref=e106]
+    - generic [ref=e109]:
+      - heading "Droppable" [level=1] [ref=e110]
+      - tablist [ref=e111]:
+        - tab "Simple" [ref=e112] [cursor=pointer]
+        - tab "Accept" [ref=e113] [cursor=pointer]
+        - tab "Prevent Propogation" [selected] [ref=e114] [cursor=pointer]
+        - tab "Revert Draggable" [ref=e115] [cursor=pointer]
+      - tabpanel "Prevent Propogation" [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: Drag Me
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - paragraph [ref=e122]: Outer droppable
+              - paragraph [ref=e124]: Inner droppable (not greedy)
+            - generic [ref=e125]:
+              - paragraph [ref=e126]: Outer droppable
+              - paragraph [ref=e128]: Inner droppable (greedy)
+    - generic [ref=e134]:
+      - iframe [ref=e137]:
+        - generic [active] [ref=f11e1]:
+          - link "Advertisement" [ref=f11e6] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CA3qoZOKmapnbCILYrPEPzL6R6AqdnrrMiQHZ0uapoBbN6JGB1koQASDG-9Z5YMme2Ifoo6AVoAHg6oXpAsgBCeACAKgDAcgDSKoEigJP0BUY2NDKLqtrvHlu4kZ-9NMu_O7WCSCpkKpGF1d7B4G1FDcAuxs_fH-EbRBgHalToQqL4q4DMQidZbqf0dVW8tx7Q5U5kuZH6iaL6hYGGfLhtmNnDZbvyQBErj1HPGL6uE9wAshsBmvZ0FB_H-BmtR_BNCeYmDSqfLvfi4AnvTrzhV0BpCiBgKeVycd2hhEImtusjadmpU8Sbb_442pGEZcF0Ox5fvhNqv78EhrtZgA6cNQlM6mlSiipFPJP54KITjad3JpombHup7dolvjHJSngI_XZZRK311yEtIfUH4y1ktTlilxlXnCD9Ctmi6nEflx4zS2CiN07fMjYn1R3mqwnOCwWirylYMAEhPWm1-kF4AQBiAXdlMyhWqAGLoAHiJX6lgGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB6brsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDIIgGEQARgdMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpY-pK-n4_slgNgAfIIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MrEJSL4aiAq6gkqACgOYCwHICwGADAGiDEgqCgoIjt-xApXisQJiGAoWY29tLlZpZEFuZ2VsLlRoZUNob3NlbmoYChZjb20udmlkYW5nZWwudGhlY2hvc2VueAGIAQGQAQGqDQJVU8gNAeINEwiZnL-fj-yWAxUCLCsIHUxfBK3qDRMIg5zAn4_slgMVAiwrCB1MXwSt8A0CiA7___________8B2BMD0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKNjE2ODU3NjUwNVAGuhcCOAGqGBcJAAAAADgoDEESCjYxNjg1NzY1MDUYAbIYCRIC6WgYLiIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMImZ3Sn4_slgMVAiwrCB1MXwStEAEYASAAEgL11fD_BwE&num=1&cid=CAQShwIAQM4h3Dy27xY6il5pWBNZuE30SIY5otb8Oog1J2Ssf8GDsbTAREfiFRUXusq2V8Kh55BeJ8-HUZ1RWdXlTSiIwNTlZAyPNeAkB9J2AmHYWjhgPDzpuB0Za_EB0Z9H7FxCqfxLseEbcjqIZPVsVxr3E-XdFeyNYK4qGM-3q6-d76A4yOKTuM8i0fNodx8crXH1ph8NhRBLq6HnBZYX2fZuajyhQvM_V4m10_P0FSjBXAulug5DK2Kg52req5apk4b_M_SF2ikyaDKqiagHE9D-ewpzCeAr0UjJvtDdyURicuTWtPzz8GojDnyJTLYe4AM0OX9p5bqTp9vTbckUsgHw8IezTQteRRgB&sig=AOD64_0SSmeUfEKH5kthsW0NkWpQRkpWdQ&client=ca-pub-4573231550355221&rf=1&nb=25&adurl=http://www.angel.com/guild/join/sale%3Fguild-join-super%3Dvariation_6%26utm_source%3Dgoogle-ads%26utm_medium%3Dcpc-d%26utm_campaign%3D24229644893%26utm_content%3D824319055413%26utm_id%3D824319055413%26utm_term%3Ddemoqa.com%26gad_source%3D5%26gad_campaignid%3D24229644893%26gclid%3DEAIaIQobChMImZ3Sn4_slgMVAiwrCB1MXwStEAEYASAAEgL11fD_BwE
+            - iframe [ref=f11e9]:
+              - generic [ref=f12e2] [cursor=pointer]:
+                - img "Runner" [ref=f12e3]
+                - img "Runner" [ref=f12e4]
+                - img "2 Free Tickets" [ref=f12e5]
+                - img "+ Streaming" [ref=f12e6]
+                - img "Sale ends today!" [ref=f12e7]
+                - img "Get the Deal!" [ref=f12e9]
+                - img "2521 Entertainment" [ref=f12e11]
+                - img "Angel" [ref=f12e12]
+                - link "Get the Deal" [ref=f12e13]:
+                  - /url: javascript:void(window.open(clickTag))
+          - img [ref=f11e13] [cursor=pointer]
+          - button [ref=f11e17] [cursor=pointer]:
+            - img [ref=f11e18]
+          - iframe
+      - iframe [ref=e140]:
+        - generic [active] [ref=f8e1]:
+          - link "Advertisement" [ref=f8e6] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CRIT4Y-KmauyVM7PttccP7qGCuAudnrrMiQHZ0uapoBbN6JGB1koQASDG-9Z5YMme2Ifoo6AVoAHg6oXpAsgBCeACAKgDAcgDSKoEkAJP0AEgHuy-51gGJuOtnnAgY86nzpCYMkENE2PiMOGkiqTBEIZHPhdo6Met9RC8Zu337Lop3KW79WB33pkT2xqLd2vZjKOFGKO4-dPFmIRIGmQ4W_HIFHi2DFMxQOKbFTxKpmRBDlt8k3p35EWcKFC2CzCXSZdChpLHm-qaJl0gCD1UQBDNmrSzEUUvM1xY1TYICnKwbzuWwMXrkAXoCAzBQMgEETHAGZ-3qzyB9yZkX960Hw8WN850jrF9-0tOeKvMjMQjh16ZSBL6az4co9zXKYQWO0WdRLxMoyNwbNnMdt6gAdDS5sUjl_z5YJO2BB4TCglQ6QZ7oc8RBdpbNX3pYkGtpB6CLnVcUJbRgtUL98AEhPWm1-kF4AQBiAXdlMyhWqAGLoAHiJX6lgGoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB6brsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDIIgGEQARgdMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpYn6O-n4_slgNgAfIIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MrEJSL4aiAq6gkqACgOYCwHICwGADAGiDDxiGAoWY29tLlZpZEFuZ2VsLlRoZUNob3NlbmoYChZjb20udmlkYW5nZWwudGhlY2hvc2VueAGIAQGQAQGqDQJVU8gNAeINEwiy0r6fj-yWAxWzdu0CHe6QALfqDRMIgKW_n4_slgMVs3btAh3ukAC38A0CiA7___________8B2BMD0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKNjE2ODU3NjUwNVAGuhcCOAGqGBcJAAAAANDCDEESCjYxNjg1NzY1MDUYAbIYCRIC6WgYLiIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMIrNO_n4_slgMVs3btAh3ukAC3EAEYASAAEgL23_D_BwE&num=1&cid=CAQShwIAQM4h3EW_JdfF_ebecvTo9-T8nvi6uDlOCbS9NlanrreFSr8wBQ-dpoLhX-5CmZu7BROW-yC_U4GsSH1ggzDyurlWBZ70ULIPrjVcfZCKrkGrqbtoHaVKlysM15pOey_feuWpUfE4iJPuZz-rtPS54F2CJr0M3t_sYQUzfuNqwK1C67WIA5cROpLOW2WVGiZwByX_ACCbsmKevdgqUOdeMB-vZFtVHPGwc0bICiKbKKGIlLa340eFxcDomO8PIovwHzlEWSIZON1dwUc_OWGPeh00BK5KiPMQpQ4Kyc16sdvjMzNMDZYDfz5tDefBnOJXkGMNvSTraKukuwCTngLsiZsaUf-6WhgB&sig=AOD64_0lZ-roktmsDew4c9ZYPRjjLLHBPw&client=ca-pub-4573231550355221&rf=1&nb=25&adurl=http://www.angel.com/guild/join/sale%3Fguild-join-super%3Dvariation_6%26utm_source%3Dgoogle-ads%26utm_medium%3Dcpc-d%26utm_campaign%3D24229644893%26utm_content%3D824319055413%26utm_id%3D824319055413%26utm_term%3Ddemoqa.com%26gad_source%3D5%26gad_campaignid%3D24229644893%26gclid%3DEAIaIQobChMIrNO_n4_slgMVs3btAh3ukAC3EAEYASAAEgL23_D_BwE
+            - iframe [ref=f8e9]:
+              - generic [ref=f9e2] [cursor=pointer]:
+                - img "Runner" [ref=f9e3]
+                - img "Runner" [ref=f9e4]
+                - img "2 Free Tickets" [ref=f9e5]
+                - img "+ Streaming" [ref=f9e6]
+                - img "Sale ends today!" [ref=f9e7]
+                - img "Get the Deal!" [ref=f9e9]
+                - img "2521 Entertainment" [ref=f9e11]
+                - img "Angel" [ref=f9e12]
+                - link "Get the Deal" [ref=f9e13]:
+                  - /url: javascript:void(window.open(clickTag))
+          - img [ref=f8e13] [cursor=pointer]
+          - button [ref=f8e17] [cursor=pointer]:
+            - img [ref=f8e18]
+          - iframe
+  - contentinfo [ref=e141]:
+    - generic [ref=e142]: © 2013-2026 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
