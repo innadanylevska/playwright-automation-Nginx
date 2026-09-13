@@ -2,7 +2,7 @@
 
 
 [![Playwright](https://img.shields.io/badge/Playwright-1.57.0-45ba4b?logo=playwright)](https://playwright.dev/)
-[![Allure Report](https://img.shields.io/badge/Allure_Report-Click_Here-6b5b95)](https://mabdulqadirhamza.github.io/demoQA-automation-framework/)
+[![Allure Report](https://img.shields.io/badge/Allure_Report-Click_Here-6b5b95)](https://innadanylevska.github.io/demoQA-automation-Nginx/)
 
 > A comprehensive end-to-end test automation framework built with Playwright and the Page Object Model pattern, featuring automated CI/CD pipelines and beautiful Allure reports.
 
@@ -26,8 +26,8 @@ What makes this framework special:
 
 ```bash
 # Clone the repository
-git clone https://github.com/mabdulqadirhamza/playwright-automation-framework.git
-cd playwright-automation-framework
+git clone https://github.com/mabdulqadirhamza/playwright-automation-Nginx.git
+cd playwright-automation-Nginx
 
 # Install dependencies
 npm install
@@ -124,7 +124,7 @@ Every push to `main` triggers:
 4. **Generate Report** - Creates Allure report with history
 5. **Deploy to GitHub Pages** - Publishes report automatically
 
-**View Live Reports**: [https://mabdulqadirhamza.github.io/playwright-automation-framework/8/index.html]
+**View Live Reports**: [https://innadanylevska.github.io/playwright-automation-Nginx/8/index.html]
 ## 🎨 Features
 
 - **Page Object Model**: Clean separation of test logic and page interactions
@@ -175,15 +175,13 @@ This project is open source and available for learning purposes.
 
 ## 👨‍💻 About Me
 
-I'm a QA Engineer passionate about building robust, maintainable test automation frameworks. This project showcases my skills in:
+I'm a QA Engineer:
 - Test automation architecture
 - CI/CD pipeline design
 - Clean code practices
 - Modern testing tools and frameworks
 
-[![GitHub](https://img.shields.io/badge/GitHub-mabdulqadirhamza-181717?style=for-the-badge&logo=github)](https://github.com/mabdulqadirhamza)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mabdulqadirhamza/)
+[![GitHub](https://img.shields.io/badge/GitHub-innadanylevska-181717?style=for-the-badge&logo=github)](https://github.com/innadanylevska)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/innadanylevska/)
 
----
 
-⭐ If you find this project helpful, please consider giving it a star!
