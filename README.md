@@ -179,9 +179,11 @@ I'm a QA Engineer:
 - Test automation architecture
 - CI/CD pipeline design
 - Clean code practices
-- Modern testing tools and frameworks
+- Modern testing tools and framework
+- Nginx
 
 [![GitHub](https://img.shields.io/badge/GitHub-innadanylevska-181717?style=for-the-badge&logo=github)](https://github.com/innadanylevska)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/innadanylevska/)
 
-
+---
+Author https://github.com/mabdulqadirhamza
